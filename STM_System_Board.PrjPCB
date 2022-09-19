@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Extended_with_Clocking
 
 [Preferences]
 PrefsVaultGUID=
@@ -105,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EEVDAUFV
 
 [Document4]
-DocumentPath=Panel\Panel_Stabilizer.OutJob
+DocumentPath=Panel\Panel_STM_Sys_board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -119,7 +120,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=NUTPSQEY
 
 [Document5]
 DocumentPath=STM_System_Board.OutJob
@@ -207,7 +208,7 @@ GenerateClassCluster=0
 DocumentUniqueId=JVLBJGSL
 
 [Document10]
-DocumentPath=Cpcis_connectors_P1_P2_P3.Harness
+DocumentPath=Panel\Panel_STM_Sys_board.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -224,7 +225,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=Cpcis_connectors_P4_P5_P6.Harness
+DocumentPath=Cpcis_connectors_P1_P2_P3.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -241,6 +242,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
+DocumentPath=Cpcis_connectors_P4_P5_P6.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
 DocumentPath=ST_SYS_Board_FPGA.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -257,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=STKFBPTJ
 
-[Document13]
+[Document14]
 DocumentPath=LVDS_Driver.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -274,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LYYIGKIM
 
-[Document14]
+[Document15]
 DocumentPath=LVDS_Driver.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -291,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=STM_System_Board_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -308,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KICJBZBZ
 
-[Document16]
+[Document17]
 DocumentPath=ST_SYS_Board_FPGA_SUP.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -325,7 +343,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OOXEXAGL
 
-[Document17]
+[Document18]
 DocumentPath=DIO_buffer.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -342,7 +360,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJXOXKYJ
 
-[Document18]
+[Document19]
 DocumentPath=CPU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -359,7 +377,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=ST_SYS_Board_Config.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -376,7 +394,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YHFEIDQN
 
-[Document20]
+[Document21]
 DocumentPath=ST_SYS_Board_Clocking.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -393,7 +411,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DJYZGFVU
 
-[Document21]
+[Document22]
 DocumentPath=ST_SYS_Board_Clocking.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -425,6 +443,38 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for STM_sys_board\Panel\Panel_STM_Sys_board.brd
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for STM_System_Board\Panel\Panel_STM_Sys_board.brd
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for STM_sys_board\Panel\Panel_STM_Sys_board.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for STM_System_Board\Panel\Panel_STM_Sys_board.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for STM_sys_board\Panel\Panel_STM_Sys_board.step
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for STM_System_Board\Panel\Panel_STM_Sys_board.step
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\QjzD2E1.xls
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\QjzFEE9.xls
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
