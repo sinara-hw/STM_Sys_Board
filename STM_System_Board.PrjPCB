@@ -12,8 +12,8 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=0
-AllowPortNetNames=1
-AllowSheetEntryNetNames=1
+AllowPortNetNames=0
+AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
 DefaultConfiguration=Default Configuration
@@ -21,7 +21,7 @@ UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
-NameNetsHierarchically=0
+NameNetsHierarchically=1
 PowerPortNamesTakePriority=1
 AutoSheetNumbering=0
 AutoCrossReferences=0
@@ -441,31 +441,31 @@ Variation1=Designator=R194|UniqueId=\SNKNGYHP\AJSASNQC|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=DivGrp
-Value=WUT ISE
-
-[Parameter2]
 Name=Version
 Value=v1.1
 
-[Parameter3]
+[Parameter2]
 Name=Title1
 Value=STM System Board
 
-[Parameter4]
+[Parameter3]
 Name=SourceLocation
 Value=https://github.com/sinara-hw/STM_Sys_Board
 
-[Parameter5]
+[Parameter4]
 Name=SheetTotal
 Value=13
 
-[Parameter6]
+[Parameter5]
 Name=Project
 Value=Sinara
 
-[Parameter7]
+[Parameter6]
 Name=Organization
+Value=WUT ISE
+
+[Parameter7]
+Name=DivGrp
 Value=WUT ISE
 
 [Parameter8]
@@ -1519,19 +1519,19 @@ Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
+L2=NNNNNNNWNNNWNNNWN
+L3=NNEENEEEENEWNEEWN
 L4=NNENNNWEENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
 L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
+L9=NNEENEEEENEWNEEWW
+L10=NNNNNNNENNEWNNEWN
 L11=NNENNNNEEENWNENWN
 L12=WWWWNWWNWWWNWWWNN
 L13=NNNNNNNNNNNWNNNWW
-L14=NWEENEEEENEWNEEWW
+L14=NNEENEEEENEWNEEWW
 L15=NNENNNNEEENWNENWW
 L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
