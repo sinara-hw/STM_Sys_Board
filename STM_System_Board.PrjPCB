@@ -32,6 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=Project Outputs for Zotino
 LogFolderPath=
@@ -43,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Basic
 
 [Preferences]
 PrefsVaultGUID=
@@ -441,44 +443,44 @@ Variation1=Designator=R194|UniqueId=\SNKNGYHP\AJSASNQC|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Version
-Value=v1.1
+Name=Address1
+Value=Nowowiejska 15/19
 
 [Parameter2]
-Name=Title1
-Value=STM System Board
-
-[Parameter3]
-Name=SourceLocation
-Value=https://github.com/sinara-hw/STM_Sys_Board
-
-[Parameter4]
-Name=SheetTotal
-Value=13
-
-[Parameter5]
-Name=Project
-Value=Sinara
-
-[Parameter6]
-Name=Organization
-Value=WUT ISE
-
-[Parameter7]
-Name=DivGrp
-Value=WUT ISE
-
-[Parameter8]
-Name=Address3
-Value=gkasprow@gmail.com
-
-[Parameter9]
 Name=Address2
 Value=00-665 Warsaw
 
+[Parameter3]
+Name=Address3
+Value=gkasprow@gmail.com
+
+[Parameter4]
+Name=DivGrp
+Value=WUT ISE
+
+[Parameter5]
+Name=Organization
+Value=WUT ISE
+
+[Parameter6]
+Name=Project
+Value=Sinara
+
+[Parameter7]
+Name=SheetTotal
+Value=13
+
+[Parameter8]
+Name=SourceLocation
+Value=https://github.com/sinara-hw/STM_Sys_Board
+
+[Parameter9]
+Name=Title1
+Value=STM System Board
+
 [Parameter10]
-Name=Address1
-Value=Nowowiejska 15/19
+Name=Version
+Value=v1.1
 
 [Configuration1]
 Name=Default Configuration
@@ -633,13 +635,13 @@ OutputName19=WireList Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=XSpiceNetlist
-OutputName20=Mixed Sim Netlist
+OutputType20=PADSNetlist
+OutputName20=PADS ASCII Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=PADSNetlist
-OutputName21=PADS ASCII Netlist
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
@@ -1118,23 +1120,23 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=AnsysEDB
-OutputName10=Ansys EDB
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=MBAExportPARASOLID
-OutputName11=Export PARASOLID
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=MBAExportSTEP
-OutputName12=Export STEP
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Web ReviewOutputName
-OutputName13=Web Review Data
+OutputType13=AnsysEDB
+OutputName13=Ansys EDB
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
@@ -1287,6 +1289,8 @@ Type133=1
 Type134=1
 Type135=1
 Type136=1
+Type137=1
+Type138=1
 
 [Difference Levels]
 Type1=1
@@ -1516,6 +1520,8 @@ Type148=2
 Type149=2
 Type150=2
 Type151=2
+Type152=1
+Type153=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1556,10 +1562,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=ICs And Semiconductors.DbLib/Logic
+ComponentDesignItemID0=CDCLVD1208RHDT
+ComponentSymbolReference0=CDCLVD1208
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1573,6 +1585,61 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Author
+ParameterUpdate0=1
+ParameterName1=Bonding
+ParameterUpdate1=1
+ParameterName2=Case
+ParameterUpdate2=1
+ParameterName3=Comment
+ParameterUpdate3=1
+ParameterName4=Component Kind
+ParameterUpdate4=1
+ParameterName5=Component Type
+ParameterUpdate5=1
+ParameterName6=ComponentHeight
+ParameterUpdate6=1
+ParameterName7=CreateDate
+ParameterUpdate7=1
+ParameterName8=Description
+ParameterUpdate8=1
+ParameterName9=Device
+ParameterUpdate9=1
+ParameterName10=Footprint
+ParameterUpdate10=1
+ParameterName11=HelpURL
+ParameterUpdate11=1
+ParameterName12=LatestRevisionDate
+ParameterUpdate12=1
+ParameterName13=Library Reference
+ParameterUpdate13=1
+ParameterName14=Manufacturer
+ParameterUpdate14=1
+ParameterName15=Manufacturer Part Number
+ParameterUpdate15=1
+ParameterName16=Mounted
+ParameterUpdate16=1
+ParameterName17=PackageDescription
+ParameterUpdate17=1
+ParameterName18=Part Description
+ParameterUpdate18=1
+ParameterName19=Part Number
+ParameterUpdate19=1
+ParameterName20=Pin Count
+ParameterUpdate20=1
+ParameterName21=PressFit
+ParameterUpdate21=1
+ParameterName22=Sense
+ParameterUpdate22=1
+ParameterName23=SMD
+ParameterUpdate23=1
+ParameterName24=Socket
+ParameterUpdate24=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=QFN50P500X500X100-29N-S325
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
