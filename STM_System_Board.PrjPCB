@@ -442,6 +442,10 @@ VariationCount=1
 Variation1=Designator=R194|UniqueId=\SNKNGYHP\AJSASNQC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Zotino\Design Rule Check - STM_System_Board.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Address1
 Value=Nowowiejska 15/19
@@ -1297,7 +1301,7 @@ Type1=1
 Type2=1
 Type3=1
 Type4=1
-Type5=1
+Type5=0
 Type6=1
 Type7=1
 Type8=1
